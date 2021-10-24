@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "uagmGfvXITM7sbBwtnPVtdwVjwGjlQqv1tKj62JeNLCYMFywPah10WElkpP0sQUuhguifmDEnQGhAT4Gx2bFhg==",
+  "success": true,
+  "projectFilePath": "C:\\Community\\OwnScheduler\\OwnScheduler\\OwnScheduler.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kchinburarat\\.nuget\\packages\\cronos\\0.7.1\\cronos.0.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

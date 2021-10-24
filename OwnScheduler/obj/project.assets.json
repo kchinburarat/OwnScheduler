@@ -1,0 +1,115 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "Cronos/0.7.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Cronos.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Cronos.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Cronos/0.7.1": {
+      "sha512": "aa2DY3qGBnwX7/jW4c17PyRlIeAtc5nYTlAPekc0113jcbBuz9vQkQaQ9NG+TNGlAj4esFxh8OuKUv4vmAODbw==",
+      "type": "package",
+      "path": "cronos/0.7.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "cronos.0.7.1.nupkg.sha512",
+        "cronos.nuspec",
+        "lib/net40/Cronos.dll",
+        "lib/net40/Cronos.xml",
+        "lib/net45/Cronos.dll",
+        "lib/net45/Cronos.xml",
+        "lib/netstandard1.0/Cronos.dll",
+        "lib/netstandard1.0/Cronos.xml",
+        "lib/netstandard2.0/Cronos.dll",
+        "lib/netstandard2.0/Cronos.xml"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "Cronos >= 0.7.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\kchinburarat\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Community\\OwnScheduler\\OwnScheduler\\OwnScheduler.csproj",
+      "projectName": "OwnScheduler",
+      "projectPath": "C:\\Community\\OwnScheduler\\OwnScheduler\\OwnScheduler.csproj",
+      "packagesPath": "C:\\Users\\kchinburarat\\.nuget\\packages\\",
+      "outputPath": "C:\\Community\\OwnScheduler\\OwnScheduler\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\kchinburarat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Nuget\\LocalPackages": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://bk-lib-nuget.agodadev.io/api/odata": {},
+        "https://hk-lib-nuget.agodadev.io/api/odata": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "dependencies": {
+          "Cronos": {
+            "target": "Package",
+            "version": "[0.7.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
